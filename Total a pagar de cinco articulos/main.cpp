@@ -2,26 +2,33 @@
 
 int main()
 {
-    float a1 ,a2, a3, a4, a5;
-    float prec1=5, prec2=7, prec3=3, prec4=11, prec5=3,
-    	total=3;
-    std::cout<<"Cantidad de articulo 1: "<<std::endl;
-    std::cin>>a1;
+	const float PRECIO1=5;//Mazanas
+	const float PRECIO2=10;//Sandwiches
+	const float PRECIO3=6.5;//Tacos
+	const float PRECIO4=10;//Refresco
+	const float PRECIO5=7;//Agua
 
-    std::cout<<"Cantidad de articulo 2: "<<std::endl;
-    std::cin>>a2;
+	float articulo1 ,articulo2, articulo3, articulo4, articulo5, total;
 
-    std::cout<<"Cantidad de articulo 3: "<<std::endl;
-    std::cin>>a3;
 
-    std::cout<<"Cantidad de articulo 4: "<<std::endl;
-    std::cin>>a4;
 
-    std::cout<<"Cantidad de articulo 5: "<<std::endl;
-    std::cin>>a5;
+	std::cout<<"Dame la cantidad de Manzanas"<<std::endl;
+	std::cin>>articulo1;
 
-    total=(a1*prec1) + (a2*prec2) + (a3*prec3) + (a4*prec4) + (a5*prec5);
+	std::cout<<"Dame la cantidad de Sandwiches"<<std::endl;
+	std::cin>>articulo2;
 
-    std::cout<<"Total a pagar "<<total;
+	std::cout<<"Dame la cantidad de Tacos"<<std::endl;
+	std::cin>>articulo3;
+
+	std::cout<<"Dame la cantidad de Refresco"<<std::endl;
+	std::cin>>articulo4;
+
+	std::cout<<"Dame la cantidad de Agua"<<std::endl;
+	std::cin>>articulo5;
+
+	total=(articulo1 * PRECIO1) + (articulo2 * PRECIO2) + (articulo3 * PRECIO3) + (articulo4 * PRECIO4) + (articulo5 * PRECIO5);
+
+	std::cout<<"Total a pagar "<<total;
     return 0;
 }
