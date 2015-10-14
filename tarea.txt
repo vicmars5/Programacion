@@ -1,0 +1,6 @@
+	--13/10/15
+Temporizador, imprimir horas, minutos, segundos een cuenta regesiva,
+
+00:30:10
+00:30:09
+00:30:08
