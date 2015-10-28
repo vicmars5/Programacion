@@ -1,0 +1,7 @@
+LIBRERIAS
+
+-Sin definir
+
+	StrToInt() //Funcion que convierte una cadena de caracteres a numero, requiere de la funcion string.c_str() para convertir un string a char
+	.c_str() //Funcion que nos devuelve el puntero de la cadena dentro del string (recuerda que string es una clase que contiene una arreglo de char)
+

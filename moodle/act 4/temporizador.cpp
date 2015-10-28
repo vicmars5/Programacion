@@ -28,9 +28,7 @@ int main(){
 	cout << "Ingresa las horas, minutos y segundos del temporizador. HH:MM:SS " <<endl;
 	cin >> horas >> basura >> minutos >> basura >> segundos;
 	*/
-
-
-
+	
 	cout << "Ingresa las horas, minutos y segundos del temporizador. HH:MM:SS " <<endl;
 	getline(cin, tiempo);
 
@@ -112,12 +110,6 @@ int main(){
 			}
 			wait(1000);
 		}
-		#ifdef WIN32
-			cout << endl << margen << "Allahu akbar!!!!" << endl;
-
-			wait(1000);
-			cout << margen << "<--KABUM-->";
-		#endif
 		wait(1000);
 	} else {
 		cout << "ERROR DE FORMATO, VUELVA A ESCRIBIR EL TIEMPO DEL TEMPORIZADOR";

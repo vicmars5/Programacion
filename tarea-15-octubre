@@ -1,0 +1,13 @@
+act 1 proy- tal cual
+act 2- ejercicio 6 de puntos extras //total de productos, se desglosa el IVA
+act 3- selectivas, validacion de fechas por año mes y dia. Decir la fecha completa en letra. Ejemplo: 3 de diciembre de 2015
+act 4- repetitivas, temporizador que meustre en la pantalla centrado
+
+
+	Manejo de cadenaas
+	cin()
+		Ignore
+
+como cortar cadenas
+convertir cadena a numero
+fflush es malo borra todo, hasta lo del escaner
